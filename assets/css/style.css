@@ -1,0 +1,32 @@
+/* RESETS */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+      color: #444;  
+  }
+
+  body img {
+    justify-self: left;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 15%;
+    height: 500px;
+  }
+  
+  body #text-stuff {
+    justify-self: right;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 60%;
+  }
+
+  footer {
+    text-justify: center;
+    position: fixed;
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+      
+      
