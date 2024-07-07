@@ -12,24 +12,19 @@
       
         <header id = "text-stuff">
             <h3 id="logo">My First Blog </h3>
-        
-            <form>
-              <label for="fname">First name:</label><br>
-              <input type="text" id="fname" name="fname"><br>
-              <label for="lname">Last name:</label><br>
-              <input type="text" id="lname" name="lname">
-              <br>
-              <label for="lname">content:</label><br>
-              <input type="text" id="content" name="content">
+            
+            <form id="myForm" action="blog.html" method="post">
+                <label for="name">Name:</label><br>     
+                <input type="text" id="name"><br>     
+                <label for="title">Blog Title:</label><br>      
+                <input type="text" id="blog-title"><br>
+                <label for="content">Blog Content:</label><br>      
+                <input type="text" id="content"><br>       
+                <input type="submit" value="Submit">
             </form>
 
-            
-            <nav>
-                <a href="blog.html">Submit</a>
-            </nav>
         </header>
 
-        
         <footer>
             <p>&copy; Copyright 2024 - Allen Lockard   </p>
 
