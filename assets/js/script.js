@@ -4,10 +4,12 @@ jsonArray.pop();
 if(localStorage.getItem("data")) {
   jsonArray = jsonArray.concat(JSON.parse(localStorage.getItem("data")));
 }
+
 localStorage.clear();
 
-document.getElementById('myForm').onsubmit = function() {
 
+document.getElementById('myForm').onsubmit = function() {
+  localStorage.clear();
   var name = document.getElementById('name').value;
   var blogTitle = document.getElementById('blog-title').value;
   var blogContent = document.getElementById('content').value;
